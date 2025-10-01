@@ -11,6 +11,10 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true
+    },
     "title": {
       "type": "string",
       "required": true,
@@ -29,10 +33,6 @@
     },
     "content": {
       "type": "blocks",
-      "required": true
-    },
-    "slug": {
-      "type": "string",
       "required": true
     }
   }
